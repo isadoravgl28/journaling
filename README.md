@@ -1,4 +1,4 @@
-# Diário Digital ✨
+# Diário Digital
 
 Este é um projeto de um diário digital feito em HTML e CSS.
 
@@ -13,3 +13,5 @@ Este é um projeto de um diário digital feito em HTML e CSS.
 - CSS
 
 ## Veja o projeto funcionando aqui:
+
+https://isadoravgl28.github.io./journaling
