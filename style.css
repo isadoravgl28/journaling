@@ -1,0 +1,102 @@
+:root {
+  --text-color: #2c3e50;
+  --background-color: #ffffff;
+  --card-color: #ede6f6;
+  --fonte-principal: "Inconsolata", monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #ecf0f1;
+    --background-color: #1a1a1a;
+    --card-color: #2c2c2c;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--fonte-principal);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.subtitulo {
+  text-align: center;
+  font-size: 1.1rem;
+  color: gray;
+  margin-bottom: 2rem;
+}
+
+main {
+  width: 100%;
+  max-width: 800px;
+}
+
+section > h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background-color: var(--card-color);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.topo-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.card time {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+button {
+  background: #c252f2;
+  background: radial-gradient(
+    circle,
+    rgba(194, 82, 242, 1) 0%,
+    rgba(99, 67, 240, 1) 100%
+  );
+  border: none;
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  color: white;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
